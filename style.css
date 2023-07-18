@@ -710,4 +710,19 @@ font-size: 1.8rem;
   padding-left: 0%;
 }
 
+@media (max-width: 767px) {
+  .section-title4 h2{
+    display: none;
+  }
+  .section-title4 h2::after {
+    display: none;
+  }
+  .contact .info-box {
+    padding: 10px;
+    width: 90%;
+    text-align: center;
+  }
+
+}
+
 
