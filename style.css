@@ -722,7 +722,13 @@ font-size: 1.8rem;
     width: 90%;
     text-align: center;
   }
+.row {
+    padding-left: 5%;
+  }
 
+  .php-email-form .row {
+    padding-left: 0;
+  }
 }
 
 
