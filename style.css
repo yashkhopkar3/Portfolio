@@ -147,6 +147,68 @@ nav ul li a:hover {
   color: rgb(117, 206, 143);
 
 }
+@media screen and (max-width: 768px) {
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  nav ul li {
+    flex: 0 0 auto;
+    text-align: center;
+    margin: 10px;
+  }
+  nav .left {
+    display: none; /* Hide the left section */
+  }
+
+  nav .right {
+    width: 100%; /* Make the right section occupy the entire width */
+    text-align: center; /* Center the content in the right section */
+  }
+
+  .right {
+    padding-bottom: 5px;
+  }
+
+  nav ul li a {
+    font-size: 0.9rem; /* Decrease the font size for better fit */
+  }
+
+  .firstSection {
+    flex-direction: column;
+  }
+
+  .firstSection>div {
+    width: 85%;
+  }
+
+  .leftSection {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .leftSection div {
+    font-size: 1.8rem;
+  }
+
+
+  .rightSection img {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    max-width: 100%; /* Ensure the image does not exceed the container width */
+    height: auto; /* Preserve the image aspect ratio */
+  }
+
+  .social-links {
+    margin-top: 30px;
+    padding: 10px;
+    justify-content: center;
+  }
+}
 
 .col-lg-8 pt-4 pt-lg-0 content {
   display: flex;
