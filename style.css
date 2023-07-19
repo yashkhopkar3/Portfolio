@@ -794,6 +794,9 @@ font-size: 1.8rem;
   .section-title2 h2::after {
     display: none;
   }
+   .section-title1 h2::after {
+    display: none;
+  }
 
   .section-title2 h2{
     padding-left:10%;
