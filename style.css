@@ -849,6 +849,9 @@ font-size: 1.8rem;
     padding: 0;
     margin-bottom: 20px;
   }
+  .section-title1 h2::after {
+    display: none;
+  }
 
   .col-lg-6 {
     padding: 0 25px;
