@@ -802,7 +802,7 @@ font-size: 1.8rem;
     width: 100%;
   }
   .row1 {
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: left;
   }
@@ -811,6 +811,7 @@ font-size: 1.8rem;
     width: 100%;
     flex-wrap: wrap;
     text-align: center;
+    flex-basis: 100%;
   }
 
   .progress {
