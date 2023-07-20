@@ -804,20 +804,28 @@ font-size: 1.8rem;
   .section-title2 h2{
     padding-left:10%;
   }
-  .row1 {
+   .row1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width:70%
-    padding-left:1%;
   }
 
   .icon-box {
-    flex-basis: 30%; /* This will show one icon-box per row in mobile view */
+    flex-basis: 100%; /* Each icon-box takes the full width in mobile view */
     text-align: center;
     margin-bottom: 20px;
-    
   }
+
+  .icon-box img {
+    height: 50px; /* Adjust the height of the icon image as needed */
+    width: 50px; /* Adjust the width of the icon image as needed */
+  }
+
+  .icon-box h3 {
+    margin-top: 10px;
+    font-size: 16px; /* Adjust the font size of the text as needed */
+  }
+
 
   .progress {
     padding: 25%;
