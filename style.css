@@ -808,12 +808,11 @@ font-size: 1.8rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width:90%
+    width:70%
     padding-left:1%;
   }
 
   .icon-box {
-    width: 100%;
     flex-basis: 30%; /* This will show one icon-box per row in mobile view */
     text-align: center;
     margin-bottom: 20px;
