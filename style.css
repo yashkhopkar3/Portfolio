@@ -806,15 +806,18 @@ font-size: 1.8rem;
   }
   .row1 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: left;
+    align-items: flex-start;
+    padding-left: 10%;
+    width: 96%;
   }
 
   .icon-box {
-    width: 100%;
-    flex-wrap: wrap;
+    flex-basis: 50%; 
     text-align: center;
-    flex-basis: 100%;
+    margin-bottom: 20px;
+    width: 100%;
   }
 
   .progress {
