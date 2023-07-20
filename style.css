@@ -785,8 +785,8 @@ font-size: 1.8rem;
     align-items: center;
   }
    .Skills {
-     padding-left:1%;
-     width:70%
+     padding-left:0.5%;
+     width:60%
    }
   .section-title h2::after {
     display: none;
@@ -817,8 +817,8 @@ font-size: 1.8rem;
   }
 
   .icon-box img {
-    height: 50px; /* Adjust the height of the icon image as needed */
-    width: 50px; /* Adjust the width of the icon image as needed */
+    height: 40px; /* Adjust the height of the icon image as needed */
+    width: 40px; /* Adjust the width of the icon image as needed */
   }
 
   .icon-box h3 {
