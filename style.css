@@ -475,6 +475,7 @@ nav ul li a:hover {
 .interest {
   display: flex;
   justify-content: space-around;
+  width:80%;
 }
 
 .icon-box img {
