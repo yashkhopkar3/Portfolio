@@ -785,7 +785,7 @@ font-size: 1.8rem;
     align-items: center;
   }
    .Skills {
-     padding-left:5%;
+     padding-left:1%;
    }
   .section-title h2::after {
     display: none;
@@ -807,11 +807,11 @@ font-size: 1.8rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width:95%
+    width:90%
   }
 
   .icon-box {
-    flex-basis: 33.33%; /* This will show one icon-box per row in mobile view */
+    flex-basis: 30%; /* This will show one icon-box per row in mobile view */
     text-align: center;
     margin-bottom: 20px;
     
