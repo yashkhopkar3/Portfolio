@@ -804,29 +804,26 @@ font-size: 1.8rem;
   .section-title2 h2{
     padding-left:5%;
   }
-   .row1 {
+  .row1 {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .icon-box {
-    flex-basis: 30%; /* Each icon-box takes the full width in mobile view */
-    text-align: center;
+  .interest .icon-box {
     margin-bottom: 20px;
   }
 
-  .icon-box img {
-    height: 40px; /* Adjust the height of the icon image as needed */
-    width: 40px; /* Adjust the width of the icon image as needed */
+  .interest .icon-box img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
   }
 
-  .icon-box h3 {
-    margin-top: 10px;
-    font-size: 16px; /* Adjust the font size of the text as needed */
+  .interest .icon-box h3 {
+    font-size: 16px;
+    margin: 0;
   }
-
-
   .progress {
     padding: 25%;
     flex-direction: column;
