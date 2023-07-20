@@ -786,7 +786,7 @@ font-size: 1.8rem;
   }
    .Skills {
      padding-left:1%;
-     width:70%
+     width:60%
    }
   .section-title h2::after {
     display: none;
@@ -808,6 +808,7 @@ font-size: 1.8rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width:50%;
   }
 
   .interest .icon-box {
@@ -840,7 +841,7 @@ font-size: 1.8rem;
   }
 
   .icon-box {
-    width: 80%;
+    width: 60%;
     height: auto;
   }
 
