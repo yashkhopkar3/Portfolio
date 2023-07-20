@@ -779,12 +779,14 @@ font-size: 1.8rem;
   }
   
 
-  .Languages,
-  .Skills {
+  .Languages {
     padding-left: 5%;
     flex-direction: column;
     align-items: center;
   }
+   .Skills {
+     padding-left:5%;
+   }
   .section-title h2::after {
     display: none;
   }
