@@ -810,6 +810,11 @@ font-size: 1.8rem;
     align-items: center;
     width:50%;
   }
+  .box{
+  flex-direction: column;
+    width:70%;
+    
+  }
 
   .interest .icon-box {
     margin-bottom: 20px;
