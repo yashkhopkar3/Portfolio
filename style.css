@@ -803,23 +803,16 @@ font-size: 1.8rem;
   .section-title2 h2{
     padding-left:10%;
   }
-  .icon-box {
-    width: 100%;
-  }
   .row1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
-    padding-left: 10%;
-    width: 96%;
   }
 
   .icon-box {
-    flex-basis: 50%; 
+    flex-basis: 33.33%; /* This will show one icon-box per row in mobile view */
     text-align: center;
     margin-bottom: 20px;
-    width: 100%;
   }
 
   .progress {
