@@ -786,6 +786,7 @@ font-size: 1.8rem;
   }
    .Skills {
      padding-left:1%;
+     width:96%
    }
   .section-title h2::after {
     display: none;
@@ -808,9 +809,11 @@ font-size: 1.8rem;
     flex-wrap: wrap;
     justify-content: center;
     width:90%
+    padding-left:1%;
   }
 
   .icon-box {
+    width: 100%;
     flex-basis: 30%; /* This will show one icon-box per row in mobile view */
     text-align: center;
     margin-bottom: 20px;
