@@ -787,6 +787,7 @@ font-size: 1.8rem;
    .Skills {
      padding-left:1%;
      width:100%
+    display: block;
    }
   .section-title h2::after {
     display: none;
@@ -812,6 +813,7 @@ font-size: 1.8rem;
   }
   .box{
   flex-direction: column;
+   width:98%;
   }
 
   .interest .icon-box {
