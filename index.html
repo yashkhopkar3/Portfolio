@@ -2,59 +2,62 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yash Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yash Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="left">Yash's Portfolio</div>
-            <div class="right">
-                <ul>
-                    <li><a href="index.html"><strong>Home</strong></a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="resume.html">Resume</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact Me</a></li>
-                </ul>
-            </div>
+  <!-- ===== Header ===== -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Yash<span>Portfolio</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="menu-btn"><i class="fa fa-bars"></i></div>
+    </nav>
+  </header>
 
-        </nav>
-    </header>
-    <main>
-        <section class="firstSection">
-            <div class="leftSection">
-                <span class="purple">Yash Khopkar</span>
-                <div>I'm passionate <span id="element"></span> from Khopoli</div>
+  <!-- ===== Hero Section ===== -->
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Hello, I’m <span class="gradient">Yash Khopkar</span></h1>
+        <h2>A <span id="element"></span></h2>
+        <p>Based in Khopoli, passionate about building scalable apps & analyzing data.</p>
+        <div class="social-links">
+          <a href="https://github.com/yashkhopkar3"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/yashkhopkar"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/yash_khopkar36"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <a href="resume.html" class="btn">Download Resume</a>
+      </div>
+      <div class="hero-img">
+        <img src="Assets/backg.png" alt="Yash Profile">
+      </div>
+    </section>
+  </main>
 
-                <div class="social-links">
-                    <a href="https://github.com/yashkhopkar3"><i class="fa fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/yashkhopkar"><i class="fa fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/yash_khopkar36"><i class="fa fa-instagram"></i></a>
-                </div>
-            </div>
-            <div class="rightSection">
-                <img src="Assets/backg.png" alt="">
-            </div>
-
-        </section>
-    </main>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed('#element', {
-            strings: ['Java Developer', 'Android Developer', 'Web Developer'],
-            typeSpeed: 80, loop: true,
-        });
-    </script>
-
+  <!-- ===== Scripts ===== -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Software Developer', 'Data Analyst'],
+      typeSpeed: 80,
+      backSpeed: 50,
+      loop: true,
+    });
+  </script>
 </body>
 
 </html>
