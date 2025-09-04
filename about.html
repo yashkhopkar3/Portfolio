@@ -4,176 +4,133 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yash Portfolio</title>
+  <title>Yash Portfolio - About</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
   <header>
-    <nav>
-      <div class="left">Yash's Portfolio</div>
-      <div class="right">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html"><strong>About</strong></a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact Me</a></li>
-        </ul>
-      </div>
+    <nav class="navbar">
+      <div class="logo">Yash<span>Portfolio</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active" >About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="menu-btn"><i class="fa fa-bars"></i></div>
     </nav>
   </header>
+
   <main>
+    <!-- ===== About Section ===== -->
     <section id="about" class="about">
       <div class="about-me">
         <div class="section-title1">
-          <h2>About</h2>
           <div class="row">
-            <div class="col-lg-4" data-aos="fade-right">
-              <img src="Yash.jpg" class="img-fluid" alt="" style="display: block; max-width: 100%; height: auto; border-radius: 50%; box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16); transition: transform .2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+            <div class="col-lg-4">
+              <img src="Yash.jpg" class="profile-pic" alt="Yash Khopkar">
             </div>
           </div>
         </div>
       </div>
+
       <div class="Info">
         <div class="head"><span id="element"></span></div>
         <div class="details">
-          <p> hello , i am yash khopkar , i am coder / programmer / developer .</p>
+          <p>Hello, I am Yash Khopkar, a passionate coder, programmer & developer.</p>
         </div>
         <div class="col-lg-6">
           <ul>
-            <li><i class="bi"></i> <strong>Birthday :</strong> &nbsp&nbsp<span>24 March 2003</span></li>
-            <li><i class="bi"></i> <strong>Website :</strong>&nbsp&nbsp <span><a
-                  href="https://github.com/yashkhopkar3">https://yashkhopkar3.github.io/Portfolio/</a></span></li>
-            <li><i class="bi"></i> <strong>Phone :</strong> &nbsp&nbsp<span>9960377270</span></li>
-            <li><i class="bi"></i> <strong>City :</strong>&nbsp&nbsp<span>Khopoli , Maharashtra</span></li>
-            <li><i class="bi"></i> <strong>Age :</strong>&nbsp &nbsp<span>21</span></li>
-            <li><i class="bi"></i> <strong>Degree :</strong>&nbsp&nbsp <span>Master of Computer Applications </span></li>
-            <li><i class="bi"></i> <strong>Email :</strong>&nbsp &nbsp<span>ykhopkar3@gmail.com</span></li>
-            <li><i class="bi"></i> <strong>linkedin :</strong>&nbsp &nbsp<span><a
-                  href="https://www.linkedin.com/in/yashkhopkar">https://https://www.linkedin.com/in/yashkhopkar</a></span>
+            <li><strong>Birthday :</strong> <span>24 March 2003</span></li>
+            <li><strong>Website :</strong> <span><a href="https://yashkhopkar3.github.io/Portfolio/">Portfolio
+                  Link</a></span></li>
+            <li><strong>Phone :</strong> <span>9960377270</span></li>
+            <li><strong>City :</strong> <span>Maharashtra</span></li>
+            <li><strong>Age :</strong> <span>22</span></li>
+            <li><strong>Degree :</strong> <span>MCA</span></li>
+            <li><strong>Email :</strong> <span>ykhopkar3@gmail.com</span></li>
+            <li><strong>LinkedIn :</strong> <span><a href="https://www.linkedin.com/in/yashkhopkar">Profile</a></span>
             </li>
           </ul>
         </div>
       </div>
     </section>
-    <div class="Languages">
+
+    <!-- ===== Languages Section ===== -->
+    <section class="Languages">
       <div class="section-title">
         <h2>Languages</h2>
-        <section class="progress">
+        <div class="progress">
           <div class="leftSection1">
-            <div class="skill">JAVA<i class="val">90%</i></div>
+            <div class="skill">JAVA <i class="val">90%</i></div>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-              </div>
-            </div>
-            <br>
-            <div class="skill">PYTHON<i class="val">40%</i></div>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar1" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-              </div>
-            </div>
-          </div>
-          <div class="rightSection1">
-            <div class="skill">SQL<i class="val">60%</i></div>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar1" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-              </div>
-            </div>
-            <br>
-            <div class="skill">C++<i class="val">60%</i></div>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar2" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-              </div>
+              <div class="progress-bar java"></div>
             </div>
 
+            <div class="skill">PYTHON <i class="val">80%</i></div>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar python"></div>
+            </div>
           </div>
-        </section>
-        <br>
+
+          <div class="rightSection1">
+            <div class="skill">SQL <i class="val">90%</i></div>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar sql"></div>
+            </div>
+
+            <div class="skill">PHP <i class="val">80%</i></div>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar php"></div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <br>
-    <br>
-    <div class="Skills ">
+    </section>
+
+    <!-- ===== Skills Section ===== -->
+    <section class="Skills">
       <div class="section-title2">
         <h2>Skills</h2>
         <div class="box">
-          <section class="interest">
-            <div class="row1">
-              <div class="icon-box">
-                <img src="Assets/html5.png" alt="Html">
-                &nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;
-                <h3>Html</h3>
-              </div>
-              &nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;
-              <div class="icon-box">
-                <img src="Assets/css.png" alt="CSS">
-                &nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;
-                <h3>CSS</h3>
-              </div>
-              &nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;
+          <div class="row1">
+            <div class="icon-box"><img src="Assets/html5.png" alt="Html">
+              <h3>HTML</h3>
             </div>
-            <div class="row1">
-              <div class="icon-box">
-                <img src="Assets/excel.png" alt="Excel">
-                &nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;
-                <h3>Excel</h3>
-              </div>
-              &nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;
-              <div class="icon-box">
-                <img src="Assets/AS.png" alt="Android Studio">
-                &nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;
-                <h3>Android Studio</h3>
-              </div>
-              &nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;
+            <div class="icon-box"><img src="Assets/css.png" alt="CSS">
+              <h3>CSS</h3>
             </div>
-            <div class="row1">
-              <div class="icon-box">
-                <img src="Assets/powerbi.png" alt="PowerBI">
-                &nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;
-                <h3>Power BI</h3>
-              </div>
-              &nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;
-              <div class="icon-box">
-                <img src="Assets/mongodb.png" alt="mongodb">
-                &nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;
-                <h3>Mongo DB</h3>
-              </div>
-              &nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;
+          </div>
+          <div class="row1">
+            <div class="icon-box"><img src="Assets/excel.png" alt="Excel">
+              <h3>Excel</h3>
             </div>
-          </section>
-          <br><br>
+            <div class="icon-box"><img src="Assets/AS.png" alt="Android Studio">
+              <h3>Android Studio</h3>
+            </div>
+          </div>
+          <div class="row1">
+            <div class="icon-box"><img src="Assets/powerbi.png" alt="PowerBI">
+              <h3>Power BI</h3>
+            </div>
+            <div class="icon-box"><img src="Assets/mongodb.png" alt="MongoDB">
+              <h3>MongoDB</h3>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <br>
-    <br>
+    </section>
   </main>
-  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
-  <script>
-    var typed = new Typed('#element', {
-      strings: ['Java Developer', 'Android Developer', 'Web Developer'],
-      typeSpeed: 80, loop: true,
-    });
-  </script>
+  <!-- ===== Scripts ===== -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
