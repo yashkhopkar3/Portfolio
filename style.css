@@ -24,7 +24,7 @@ ul {
 /* ===== Navbar ===== */
 header {
   width: 100%;
-  padding: 25px 60px;
+  padding: 25px 30px;
   background: rgba(15, 23, 42, 0.8);
   backdrop-filter: blur(8px);
   position: fixed;
@@ -837,4 +837,5 @@ header {
     font-size: 1.8rem;
     z-index: 1001;
   }
+
 }
